@@ -1,9 +1,4 @@
-//
-//  AppDelegate.swift
-//  Movie Tracker
-//
-//  Created by Даниил Асташов on 03.02.2025.
-//
+
 
 import UIKit
 
