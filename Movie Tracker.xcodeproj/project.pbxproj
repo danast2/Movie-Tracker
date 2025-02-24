@@ -14,6 +14,7 @@
 		30646DC52D5128B100CD9D61 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 30646DC42D5128B100CD9D61 /* Base */; };
 		307C32252D6C3D4300B28049 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C32242D6C3D4300B28049 /* Movie.swift */; };
 		307C32272D6C5FEE00B28049 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C32262D6C5FEE00B28049 /* MovieResponse.swift */; };
+		307C322A2D6C658000B28049 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C32292D6C658000B28049 /* MovieService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		30646DC62D5128B100CD9D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		307C32242D6C3D4300B28049 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		307C32262D6C5FEE00B28049 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
+		307C32292D6C658000B28049 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		30646DB72D5128B000CD9D61 /* Movie Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				307C32282D6C657100B28049 /* Services */,
 				307C32232D6C3C7A00B28049 /* Models */,
 				30646DB82D5128B000CD9D61 /* AppDelegate.swift */,
 				30646DBA2D5128B000CD9D61 /* SceneDelegate.swift */,
@@ -76,6 +79,14 @@
 				307C32262D6C5FEE00B28049 /* MovieResponse.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		307C32282D6C657100B28049 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				307C32292D6C658000B28049 /* MovieService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 				307C32272D6C5FEE00B28049 /* MovieResponse.swift in Sources */,
 				30646DBB2D5128B000CD9D61 /* SceneDelegate.swift in Sources */,
 				307C32252D6C3D4300B28049 /* Movie.swift in Sources */,
+				307C322A2D6C658000B28049 /* MovieService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
