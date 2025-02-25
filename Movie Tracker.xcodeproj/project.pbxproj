@@ -18,6 +18,7 @@
 		307C322D2D6D135B00B28049 /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C322C2D6D135B00B28049 /* MovieListViewModel.swift */; };
 		307C32322D6D146E00B28049 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C32312D6D146E00B28049 /* MovieListViewController.swift */; };
 		307C32362D6E47E400B28049 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C32352D6E47E400B28049 /* MovieCollectionViewCell.swift */; };
+		307C32382D6E4F3100B28049 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C32372D6E4F3100B28049 /* MovieDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		307C322C2D6D135B00B28049 /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
 		307C32312D6D146E00B28049 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		307C32352D6E47E400B28049 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		307C32372D6E4F3100B28049 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			children = (
 				307C32312D6D146E00B28049 /* MovieListViewController.swift */,
 				307C32352D6E47E400B28049 /* MovieCollectionViewCell.swift */,
+				307C32372D6E4F3100B28049 /* MovieDetailViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				307C32322D6D146E00B28049 /* MovieListViewController.swift in Sources */,
 				307C322A2D6C658000B28049 /* MovieService.swift in Sources */,
 				307C322D2D6D135B00B28049 /* MovieListViewModel.swift in Sources */,
+				307C32382D6E4F3100B28049 /* MovieDetailViewController.swift in Sources */,
 				307C32362D6E47E400B28049 /* MovieCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
